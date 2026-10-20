@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shriyash Dethe — Software Developer &amp; QA Engineer</title>
+<meta name="description" content="Portfolio of Shriyash Popat Dethe — Java Developer, Web Developer, SQL Developer, Manual &amp; Automation Tester.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2222%22 fill=%22%230B1320%22/><text x=%2250%22 y=%2266%22 font-size=%2250%22 font-family=%22monospace%22 fill=%22%233DDC97%22 text-anchor=%22middle%22>S</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= CUSTOM CURSOR / PROGRESS BAR ================= -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- ================= HEADER ================= -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="#home" class="brand">
+      <span class="brand-mark">&lt;SPD/&gt;</span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="#contact" class="btn btn-ghost header-cta-desktop">Hire Me</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+  <div class="hero-bg" aria-hidden="true">
+    <div class="grid-overlay"></div>
+    <div class="glow glow-teal"></div>
+    <div class="glow glow-amber"></div>
+  </div>
+
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow mono">// Sangola, Maharashtra · Open to relocate</p>
+      <h1 class="hero-title">
+        Hi, I'm <span class="accent">Shriyash&nbsp;Dethe</span>
+      </h1>
+      <p class="hero-role mono">
+        <span id="typedRole">Java Developer</span><span class="cursor">|</span>
+      </p>
+      <p class="hero-desc">
+        A fresh B.Tech Computer Science graduate who builds full-stack Java applications
+        and breaks them on purpose &mdash; from Spring Boot APIs to Selenium test suites and
+        hand-written SQL. Currently interning at Tek Pyramid (Test Yantra Software Solutions), Pune.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <div class="resume-dropdown">
+          <button class="btn btn-outline" id="resumeBtn">Download Resume ▾</button>
+          <div class="resume-menu" id="resumeMenu">
+            <a href="resumes/Shriyash_Dethe_Java_Developer_Resume.docx" download>Java Developer</a>
+            <a href="resumes/Shriyash_Dethe_Web_Developer_Resume.docx" download>Web Developer</a>
+            <a href="resumes/Shriyash_Dethe_SQL_Developer_Resume.docx" download>SQL Developer</a>
+            <a href="resumes/Shriyash_Dethe_Manual_Testing_Resume.docx" download>Manual Testing</a>
+            <a href="resumes/Shriyash_Dethe_Automation_Testing_Resume.docx" download>Automation Testing</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-socials">
+        <a href="tel:+919370859800" aria-label="Phone">
+          <svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.4 21 3 13.6 3 4.6c0-.6.4-1 1-1H7.6c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1L6.6 10.8z"/></svg>
+        </a>
+        <a href="mailto:shriyashdethe5@gmail.com" aria-label="Email">
+          <svg viewBox="0 0 24 24"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm17.5 2.4-8 6-8-6V6l8 6 8-6v1.4z"/></svg>
+        </a>
+        <a href="#" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3V9zm7 0h3.8v1.7h.05c.53-1 1.83-2 3.77-2 4 0 4.75 2.6 4.75 6.1V21h-4v-5.4c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9V21h-4V9z"/></svg>
+        </a>
+        <a href="#" aria-label="GitHub">
+          <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-3.16 19.5c.5.1.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.15-1.11-1.46-1.11-1.46-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.93 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.9-1.29 2.74-1.02 2.74-1.02.56 1.38.2 2.4.1 2.65.65.7 1.03 1.59 1.03 2.68 0 3.83-2.35 4.68-4.58 4.92.36.31.68.92.68 1.85v2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-visual" aria-hidden="true">
+      <div class="terminal">
+        <div class="terminal-bar">
+          <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+          <span class="terminal-title mono">shriyash@dethe: ~/portfolio</span>
+        </div>
+        <div class="terminal-body mono" id="terminalBody">
+          <p><span class="prompt">$</span> whoami</p>
+          <p class="out">shriyash_popat_dethe</p>
+          <p><span class="prompt">$</span> cat tracks.json</p>
+          <pre class="out">{
+  "java_developer": true,
+  "web_developer": true,
+  "sql_developer": true,
+  "manual_tester": true,
+  "automation_tester": true
+}</pre>
+          <p><span class="prompt">$</span> ./build_career.sh</p>
+          <p class="out compiling">Compiling experience<span class="dots">...</span></p>
+          <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+          <p class="out success">✔ Build successful — ready to ship.</p>
+        </div>
+      </div>
+      <div class="avatar-badge">
+        <span class="mono">SPD</span>
+      </div>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-cue" aria-label="Scroll down"><span></span></a>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="section" id="about">
+  <div class="container">
+    <p class="eyebrow mono">01 / About</p>
+    <h2 class="section-title">One graduate, five ways to ship quality software</h2>
+
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          I'm a Computer Science undergraduate (B.Tech, Fabtech Technical Campus, Sangola —
+          CGPA 8.11) finishing a hands-on internship at <strong>Tek Pyramid, Test Yantra Software
+          Solutions</strong> in Hadapsar, Pune. Over the course of my internship and coursework I've
+          worked across the stack that actually ships a product: building the backend in
+          <strong> Java &amp; Spring Boot</strong>, wiring it to <strong>MySQL/Oracle</strong> with
+          hand-tuned SQL, styling the front end with <strong>HTML, CSS &amp; JavaScript</strong>,
+          and then testing the whole thing — manually and with <strong>Selenium/TestNG</strong>
+          automation — before it goes anywhere near production.
+        </p>
+        <p>
+          I also co-authored and presented a research paper on <strong>Augmented Reality in
+          interactive learning environments</strong> at an international conference, using Google
+          Model Viewer to render 3D models directly in the browser.
+        </p>
+        <p>
+          I care about the boring-but-critical parts of software: edge cases, clean layered
+          architecture, and code that's still readable after someone else touches it. That's why
+          I move comfortably between "developer" and "tester" hats.
+        </p>
+      </div>
+
+      <div class="about-stats">
+        <div class="stat-card">
+          <span class="stat-num mono">8.11</span>
+          <span class="stat-label">CGPA · B.Tech CSE</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num mono">5</span>
+          <span class="stat-label">Specialised tracks</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num mono">6+</span>
+          <span class="stat-label">Hands-on projects</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num mono">1</span>
+          <span class="stat-label">Published research paper</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section class="section section-alt" id="skills">
+  <div class="container">
+    <p class="eyebrow mono">02 / Skills</p>
+    <h2 class="section-title">Pick a track. Same engineer underneath.</h2>
+    <p class="section-sub">
+      Five resumes, one skill set applied five different ways. Tap a tab to see the toolkit for that role.
+    </p>
+
+    <div class="tabs" id="skillTabs">
+      <button class="tab-btn active" data-tab="java">Java Developer</button>
+      <button class="tab-btn" data-tab="web">Web Developer</button>
+      <button class="tab-btn" data-tab="sql">SQL Developer</button>
+      <button class="tab-btn" data-tab="manual">Manual Testing</button>
+      <button class="tab-btn" data-tab="auto">Automation Testing</button>
+    </div>
+
+    <div class="tab-panels">
+
+      <div class="tab-panel active" data-panel="java">
+        <div class="skill-groups">
+          <div class="skill-group"><h4>Core Java</h4><div class="tag-row">
+            <span class="tag">Class &amp; Object</span><span class="tag">Encapsulation</span><span class="tag">Abstraction</span><span class="tag">Inheritance</span><span class="tag">Polymorphism</span><span class="tag">Association</span><span class="tag">Composition</span>
+          </div></div>
+          <div class="skill-group"><h4>Advanced Java</h4><div class="tag-row">
+            <span class="tag">Spring Boot</span><span class="tag">Spring Data JPA</span><span class="tag">JDBC</span><span class="tag">JSON</span><span class="tag">HTTP Methods</span><span class="tag">DAO Pattern</span><span class="tag">RESTful APIs</span>
+          </div></div>
+          <div class="skill-group"><h4>Web &amp; Database</h4><div class="tag-row">
+            <span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span><span class="tag">JSP</span><span class="tag">MySQL</span><span class="tag">SQL (DDL/DML/TCL/DCL/DQL)</span>
+          </div></div>
+          <div class="skill-group"><h4>Tools</h4><div class="tag-row">
+            <span class="tag">Eclipse IDE</span><span class="tag">VS Code</span><span class="tag">Git/GitHub</span><span class="tag">Postman</span>
+          </div></div>
+        </div>
+      </div>
+
+      <div class="tab-panel" data-panel="web">
+        <div class="skill-groups">
+          <div class="skill-group"><h4>Front-End</h4><div class="tag-row">
+            <span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span><span class="tag">JSP</span><span class="tag">Bootstrap</span><span class="tag">Responsive Design</span>
+          </div></div>
+          <div class="skill-group"><h4>Back-End</h4><div class="tag-row">
+            <span class="tag">Core Java</span><span class="tag">Spring Boot</span><span class="tag">Spring Data JPA</span><span class="tag">Hibernate</span><span class="tag">JDBC</span><span class="tag">DAO Pattern</span>
+          </div></div>
+          <div class="skill-group"><h4>APIs &amp; Data</h4><div class="tag-row">
+            <span class="tag">RESTful APIs</span><span class="tag">JSON</span><span class="tag">GET/POST/PUT/DELETE</span>
+          </div></div>
+          <div class="skill-group"><h4>Database &amp; Tools</h4><div class="tag-row">
+            <span class="tag">MySQL</span><span class="tag">Postman</span><span class="tag">Git/GitHub</span><span class="tag">Google Model Viewer</span><span class="tag">Teachable Machine</span>
+          </div></div>
+        </div>
+      </div>
+
+      <div class="tab-panel" data-panel="sql">
+        <div class="skill-groups">
+          <div class="skill-group"><h4>Databases</h4><div class="tag-row">
+            <span class="tag">Oracle (SQL, PL/SQL)</span><span class="tag">MySQL</span>
+          </div></div>
+          <div class="skill-group"><h4>SQL</h4><div class="tag-row">
+            <span class="tag">DDL</span><span class="tag">DML</span><span class="tag">DCL</span><span class="tag">TCL</span><span class="tag">DQL</span><span class="tag">Joins</span><span class="tag">Subqueries</span><span class="tag">Views</span><span class="tag">Indexes</span><span class="tag">Constraints</span>
+          </div></div>
+          <div class="skill-group"><h4>Query Tuning</h4><div class="tag-row">
+            <span class="tag">Indexing Basics</span><span class="tag">Query Optimization</span><span class="tag">Normalization (1NF–3NF)</span><span class="tag">ER Modeling</span>
+          </div></div>
+          <div class="skill-group"><h4>Connectivity &amp; Tools</h4><div class="tag-row">
+            <span class="tag">JDBC</span><span class="tag">Spring Data JPA</span><span class="tag">Hibernate</span><span class="tag">MySQL Workbench</span><span class="tag">Oracle SQL Developer</span>
+          </div></div>
+        </div>
+      </div>
+
+      <div class="tab-panel" data-panel="manual">
+        <div class="skill-groups">
+          <div class="skill-group"><h4>Testing Types</h4><div class="tag-row">
+            <span class="tag">Functional</span><span class="tag">Regression</span><span class="tag">Smoke</span><span class="tag">Sanity</span><span class="tag">UI</span><span class="tag">Integration</span><span class="tag">Black-Box</span>
+          </div></div>
+          <div class="skill-group"><h4>Test Design</h4><div class="tag-row">
+            <span class="tag">Boundary Value Analysis</span><span class="tag">Equivalence Partitioning</span><span class="tag">Decision Table</span><span class="tag">Positive/Negative Cases</span>
+          </div></div>
+          <div class="skill-group"><h4>Documentation &amp; Defects</h4><div class="tag-row">
+            <span class="tag">Test Plans</span><span class="tag">RTM</span><span class="tag">Bug Reports</span><span class="tag">Defect Life Cycle</span><span class="tag">JIRA Basics</span>
+          </div></div>
+          <div class="skill-group"><h4>Supporting Skills</h4><div class="tag-row">
+            <span class="tag">MySQL / Oracle</span><span class="tag">Postman</span><span class="tag">Core Java (OOP)</span><span class="tag">Git/GitHub</span>
+          </div></div>
+        </div>
+      </div>
+
+      <div class="tab-panel" data-panel="auto">
+        <div class="skill-groups">
+          <div class="skill-group"><h4>Automation Tools</h4><div class="tag-row">
+            <span class="tag">Selenium WebDriver</span><span class="tag">TestNG</span>
+          </div></div>
+          <div class="skill-group"><h4>Framework Design</h4><div class="tag-row">
+            <span class="tag">Page Object Model</span><span class="tag">Data-Driven Framework</span><span class="tag">Hybrid Framework</span><span class="tag">Maven</span>
+          </div></div>
+          <div class="skill-group"><h4>BDD &amp; CI</h4><div class="tag-row">
+            <span class="tag">Cucumber / Gherkin</span><span class="tag">Jenkins Basics</span>
+          </div></div>
+          <div class="skill-group"><h4>Supporting Skills</h4><div class="tag-row">
+            <span class="tag">Core Java (OOP)</span><span class="tag">Postman / REST Assured basics</span><span class="tag">MySQL / Oracle</span><span class="tag">Git/GitHub</span>
+          </div></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+<section class="section" id="experience">
+  <div class="container">
+    <p class="eyebrow mono">03 / Experience</p>
+    <h2 class="section-title">Where I've been building</h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <span class="mono timeline-date">Feb 2026 — Present</span>
+          <h3>Java Developer Intern</h3>
+          <p class="timeline-org">Tek Pyramid — Test Yantra Software Solutions (India) Pvt. Ltd · Hadapsar, Pune · On-Campus</p>
+          <ul>
+            <li>Applied full-stack development skills — building front-end pages and REST API-driven back-ends — on real-world industry projects.</li>
+            <li>Wrote and optimized SQL queries (joins, subqueries, aggregate functions) against MySQL databases for production-style data access.</li>
+            <li>Gained hands-on exposure to manual testing: writing and executing test cases, functional &amp; regression testing on live modules.</li>
+            <li>Worked with layered application architecture (Controller–Service–Repository), reinforcing OOP fundamentals for both feature and automation work.</li>
+            <li>Participated in code reviews, version control with Git, and team discussions across the SDLC/STLC.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section class="section section-alt" id="projects">
+  <div class="container">
+    <p class="eyebrow mono">04 / Projects</p>
+    <h2 class="section-title">Things I've built &amp; broken (on purpose)</h2>
+
+    <div class="project-grid">
+
+      <article class="project-card">
+        <span class="project-tag mono">FULL STACK · 2026</span>
+        <h3>Insurance Management System</h3>
+        <p>Layered Controller–Service–Repository app in Java 21 &amp; Spring Boot. Normalized MySQL schema for Customers, Policies &amp; Leads, RESTful CRUD APIs via Spring Data JPA/Hibernate, and role-based access (ADMIN/AGENT) via X-Auth-Token — validated end-to-end in Postman.</p>
+        <div class="tag-row small">
+          <span class="tag">Java 21</span><span class="tag">Spring Boot</span><span class="tag">Hibernate</span><span class="tag">MySQL</span><span class="tag">Bootstrap</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <span class="project-tag mono">AUTOMATION · 2026</span>
+        <h3>Selenium Framework — Hotel Booking App</h3>
+        <p>Page Object Model framework in Java automating search, room selection &amp; booking confirmation. Data-driven tests read from Excel via Apache POI, TestNG annotations for execution control, and explicit/implicit waits to cut flaky failures.</p>
+        <div class="tag-row small">
+          <span class="tag">Selenium WebDriver</span><span class="tag">TestNG</span><span class="tag">Maven</span><span class="tag">POM</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <span class="project-tag mono">MANUAL TESTING · 2026</span>
+        <h3>Online Food Ordering App — QA</h3>
+        <p>Wrote test scenarios &amp; cases for registration, menu browsing, cart and checkout. Applied boundary value analysis and equivalence partitioning to quantity selectors, coupons and payment fields, then logged and retested defects.</p>
+        <div class="tag-row small">
+          <span class="tag">Functional</span><span class="tag">UI</span><span class="tag">Regression</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <span class="project-tag mono">BDD AUTOMATION · 2025</span>
+        <h3>Job Portal — Cucumber Test Suite</h3>
+        <p>Gherkin feature files for job search, application submission and profile updates, mapped to Java step definitions with Selenium. Cucumber tags separated smoke scenarios from full regression, including negative test coverage for invalid inputs.</p>
+        <div class="tag-row small">
+          <span class="tag">Cucumber</span><span class="tag">Gherkin</span><span class="tag">Selenium</span><span class="tag">TestNG</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <span class="project-tag mono">MANUAL TESTING · 2025</span>
+        <h3>Library Management System — QA</h3>
+        <p>Built a test plan for book issue/return, fine calculation and member management. Designed positive/negative cases for member IDs and overdue fines, ran smoke tests per build, and verified UI-to-database consistency with SQL.</p>
+        <div class="tag-row small">
+          <span class="tag">Smoke Testing</span><span class="tag">SQL Validation</span><span class="tag">Defect Reporting</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <span class="project-tag mono">RESEARCH · 2025</span>
+        <h3>AR in Interactive Learning Environments</h3>
+        <p>Built a WebAR application with Google Model Viewer rendering interactive 3D models straight in the browser on mobile. Paper published and presented at an international conference.</p>
+        <div class="tag-row small">
+          <span class="tag">Google Model Viewer</span><span class="tag">HTML/CSS/JS</span><span class="tag">Published Paper</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= EDUCATION + CERTS ================= -->
+<section class="section" id="education">
+  <div class="container">
+    <p class="eyebrow mono">05 / Education</p>
+    <h2 class="section-title">Foundations</h2>
+
+    <div class="edu-cert-grid">
+      <div class="edu-list">
+        <div class="edu-item">
+          <span class="mono edu-year">2022 – 2026</span>
+          <h4>B.Tech, Computer Science &amp; Engineering</h4>
+          <p>Fabtech Technical Campus, Sangola · Dr. Babasaheb Ambedkar Technological University</p>
+          <span class="edu-score">CGPA: 8.11</span>
+        </div>
+        <div class="edu-item">
+          <span class="mono edu-year">2020 – 2022</span>
+          <h4>HSC (12th)</h4>
+          <p>New English School, Bhalavani</p>
+          <span class="edu-score">63.84%</span>
+        </div>
+        <div class="edu-item">
+          <span class="mono edu-year">2019 – 2020</span>
+          <h4>SSC (10th)</h4>
+          <p>Vasantaraw Kale Prashala, Wadikuroli</p>
+          <span class="edu-score">75.20%</span>
+        </div>
+      </div>
+
+      <div class="cert-list">
+        <h3>Training &amp; Certifications</h3>
+        <ul>
+          <li><strong>Anudip Foundation</strong> — Core Java Full Stack (Java SE, JDBC, Servlets, JSP, MySQL)</li>
+          <li><strong>Capgemini</strong> — Java Full Stack Training (Spring, REST APIs, Git, Agile)</li>
+          <li><strong>Riyality Software</strong> — Java Full Stack Training (Java, HTML, CSS, JavaScript, MySQL)</li>
+        </ul>
+        <h3>Research &amp; Publications</h3>
+        <p class="research-title">"Exploring the Role of Augmented Reality in Interactive Learning Environments"</p>
+        <p class="research-desc">Published and presented at an International Conference. Tech: HTML, CSS, JavaScript, Java, Google Model Viewer.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="section section-alt" id="contact">
+  <div class="container">
+    <p class="eyebrow mono">06 / Contact</p>
+    <h2 class="section-title">Let's build something reliable</h2>
+    <p class="section-sub">Hiring for a Java, Web, SQL or QA role? I reply fast — reach out below.</p>
+
+    <div class="contact-grid">
+      <div class="contact-cards">
+        <a class="contact-card" href="tel:+919370859800">
+          <span class="contact-label mono">Phone</span>
+          <span class="contact-value">+91 93708 59800</span>
+        </a>
+        <a class="contact-card" href="mailto:shriyashdethe5@gmail.com">
+          <span class="contact-label mono">Email</span>
+          <span class="contact-value">shriyashdethe5@gmail.com</span>
+        </a>
+        <div class="contact-card">
+          <span class="contact-label mono">Location</span>
+          <span class="contact-value">Sangola, Maharashtra, India</span>
+        </div>
+        <a class="contact-card" href="#">
+          <span class="contact-label mono">LinkedIn</span>
+          <span class="contact-value">/in/shriyash-dethe</span>
+        </a>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@company.com" required>
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tell me about the role..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+        <p class="form-note mono" id="formNote"></p>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <span class="brand-mark">&lt;SPD/&gt;</span>
+      <p>Shriyash Popat Dethe — Java · Web · SQL · QA</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-socials">
+      <a href="tel:+919370859800" aria-label="Phone">
+        <svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.4 21 3 13.6 3 4.6c0-.6.4-1 1-1H7.6c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1L6.6 10.8z"/></svg>
+      </a>
+      <a href="mailto:shriyashdethe5@gmail.com" aria-label="Email">
+        <svg viewBox="0 0 24 24"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm17.5 2.4-8 6-8-6V6l8 6 8-6v1.4z"/></svg>
+      </a>
+      <a href="#" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3V9zm7 0h3.8v1.7h.05c.53-1 1.83-2 3.77-2 4 0 4.75 2.6 4.75 6.1V21h-4v-5.4c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9V21h-4V9z"/></svg>
+      </a>
+      <a href="#" aria-label="GitHub">
+        <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-3.16 19.5c.5.1.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.15-1.11-1.46-1.11-1.46-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.93 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.9-1.29 2.74-1.02 2.74-1.02.56 1.38.2 2.4.1 2.65.65.7 1.03 1.59 1.03 2.68 0 3.83-2.35 4.68-4.58 4.92.36.31.68.92.68 1.85v2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+      </a>
+    </div>
+  </div>
+  <div class="footer-bottom mono">
+    <span>© <span id="year"></span> Shriyash Popat Dethe. Built with HTML, CSS &amp; JS.</span>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
